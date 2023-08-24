@@ -2,14 +2,14 @@
 
 #Finn vekt og høyde
 weight = input("Skriv inn vekten din: ")
-height = input("Skriv inn høyden din: ")
+height = input("Skriv inn høyden din i meter: ")
 
 #Gjør input om til int
-weight = int(weight)
-height = int(height)
+weight = float(weight)
+height = float(height)
 
-#Isoler BMI som egen funksjon
-bmi = (weight / height ** 2 * 10000)
+#Isoler BMI som egen variabel
+bmi = (weight / height ** 2)
 
 #Print ut BMI
 print  ("Din BMI er : ", bmi)
