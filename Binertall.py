@@ -1,0 +1,1 @@
+# Skriv om til binærtall
